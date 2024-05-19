@@ -1,6 +1,6 @@
 var mongoose = require("mongoose");
-
-mongoose.connect("mongodb://localhost:27017/ChatterBox").then(() => console.log("Connected to MongoDB")); // Improved connection handling
+const uri = "mongodb+srv://Arjak_real:Nandini@cluster0.crakkng.mongodb.net/ChatterBox";
+mongoose.connect(uri).then(() => console.log("Connected to MongoDB")); // Improved connection handling
 
 var contact = new mongoose.Schema({
   name: {
