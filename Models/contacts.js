@@ -1,5 +1,5 @@
 var mongoose = require("mongoose");
-const uri = "mongodb+srv://Arjak_real:Nandini@cluster0.crakkng.mongodb.net/ChatterBox";
+const uri = "mongodb+srv://Arjak_real:So5EGCgjvQanIqgn@cluster0.crakkng.mongodb.net/ChatterBox";
 mongoose.connect(uri).then(() => console.log("Connected to MongoDB")); // Improved connection handling
 
 var contact = new mongoose.Schema({
